@@ -158,7 +158,7 @@ with st.sidebar:
         ["A mix of videos, reading, and practice", "Mostly hands-on projects", "Mostly videos", "Mostly reading"],
     )
     language = st.selectbox("Roadmap language", ["English", "Simple English"])
-    model = st.text_input("Gemini model", value="gemini-2.5-flash", help="Use a Gemini model enabled for your API key.")
+    model = st.text_input("Gemini model", value="gemini-3.8-flash", help="Use a Gemini model enabled for your API key.")
     generate = st.button("✨ Generate my roadmap", type="primary", use_container_width=True)
 
 st.markdown("### What you'll get")
